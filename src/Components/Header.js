@@ -1,9 +1,10 @@
 import { AppBar, Toolbar, Typography, Container, Select, MenuItem, createTheme, ThemeProvider } from '@mui/material'
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { CryptoState } from '../CryptoContext';
 import AuthModal from './Authentication/AuthModal';
 import UserSidebar from './Authentication/UserSideBar';
+import { PiWalletBold } from 'react-icons/pi'
 
 const Header = () => {
 
@@ -39,6 +40,9 @@ const Header = () => {
             </Select>
 
             {user? <UserSidebar/>:<AuthModal /> }
+            <h2><a href="https://skrypto-etherium-transfer.netlify.app/"><PiWalletBold class="link"/></a></h2>
+            
+
           </Toolbar>
         </Container>
       </AppBar>

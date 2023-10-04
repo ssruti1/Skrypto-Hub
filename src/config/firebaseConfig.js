@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDI6SnRNaCnpBawJb_E30gLVHS4MXGop9U",
-  authDomain: "skrypto-crypto.firebaseapp.com",
-  projectId: "skrypto-crypto",
-  storageBucket: "skrypto-crypto.appspot.com",
-  messagingSenderId: "851168061473",
-  appId: "1:851168061473:web:1c533d2f1d968734d05b60"
+  apiKey: "AIzaSyBMJIGMzwbFzT3F7nwLVLDimwf6xWkQ0vk",
+  authDomain: "luganodes-crypto.firebaseapp.com",
+  projectId: "luganodes-crypto",
+  storageBucket: "luganodes-crypto.appspot.com",
+  messagingSenderId: "859160477459",
+  appId: "1:859160477459:web:a6bc78638288a3a3a624e6"
 };
 
 export default firebaseConfig;  
